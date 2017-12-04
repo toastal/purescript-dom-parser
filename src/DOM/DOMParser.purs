@@ -19,7 +19,7 @@ foreign import parseFromString_ ∷ String → String → DOMParser → Document
 --| Parse a DOM from a string
 parseFromString ∷ DOMParserType → String → DOMParser → Document
 parseFromString docType =
-  parseFromString_ (documentTypeToString docType)
+  parseFromString_ (documentTypeToMIMETypeString docType)
 
 --| Convience function to parse HTML from a string
 parseHTMLFromString ∷ String → DOMParser → Document
