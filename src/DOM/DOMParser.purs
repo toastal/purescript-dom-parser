@@ -8,7 +8,7 @@ module DOM.DOMParser
 
 import Control.Monad.Eff (Eff)
 import DOM (DOM)
-import DOM.DOMParser.Types (DOMParser, DOMParserType(..), documentTypeToString)
+import DOM.DOMParser.Types (DOMParser, DOMParserType(..), documentTypeToMIMETypeString)
 import DOM.Node.Types (Document)
 
 --| Create a new `DOMParser`
