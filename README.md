@@ -3,7 +3,7 @@
 [`DOMParser`](https://developer.mozilla.org/docs/Web/API/DOMParser) wrapper for integration with PureScript DOM.
 
 
-[![Latest release](http://img.shields.io/github/release/toastal/purescript-domparser.svg)](https://github.com/purescript/domparser/releases)
+[![Latest release](http://img.shields.io/github/release/toastal/purescript-domparser.svg)](https://github.com/toastal/purescript-domparser/releases)
 
 
 ## Installation
