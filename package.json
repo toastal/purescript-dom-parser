@@ -1,15 +1,20 @@
 {
+  "name": "purescript-dom-parser",
+  "author": "toastal <https://keybase.io/toastal>",
   "private": false,
   "scripts": {
     "build": "pulp build -- --censor-lib --strict",
     "clean": "rimraf output && rimraf .pulp-cache",
     "test": "echo TODO",
-    "postinstall": "bower install"
+    "postinstall": "psc-package install"
   },
   "devDependencies": {
-    "pulp": "^12.0.1",
-    "purescript": "^0.11.7",
-    "purescript-psa": "^0.5.1",
+    "pulp": "^12.3",
+    "purescript": "0.12",
+    "purescript-psa": "0.7",
     "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "psc-package": "^0.3.2"
   }
 }

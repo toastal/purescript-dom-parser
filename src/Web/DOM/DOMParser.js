@@ -1,4 +1,4 @@
-/* DOM.DOMParser */
+/* Web.DOM.DOMParser */
 "use strict";
 
 exports.newDOMParser = function () {

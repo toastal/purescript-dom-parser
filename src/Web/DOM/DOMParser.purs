@@ -1,4 +1,4 @@
-module DOM.DOMParser
+module Web.DOM.DOMParser
   ( DOMParser
   , newDOMParser
   , parseFromString
@@ -7,14 +7,13 @@ module DOM.DOMParser
   , parseXMLFromString
   ) where
 
-import Control.Monad.Eff (Eff)
-import DOM (DOM)
-import DOM.Node.Types (Document)
+import Effect (Effect)
+import Web.DOM.Document (Document)
 
 foreign import data DOMParser ∷ Type
 
 --| Create a new `DOMParser`
-foreign import newDOMParser ∷ ∀ a. Eff (dom ∷ DOM | a) DOMParser
+foreign import newDOMParser ∷ Effect DOMParser
 
 foreign import parseFromString ∷ String → String → DOMParser → Document
 

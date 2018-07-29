@@ -1,3 +1,19 @@
+/bower_components/
+/node_modules/
+/.pulp-cache/
+/output/
+/generated-docs/
+/.psc-package/
+/.psc*
+/.purs*
+/.psa*
+/.psa-stash
+
+yarn.lock
+/node_modules/
+/output/
+/tmp/
+
 .DS_Store
 .DS_Store?
 ._*
@@ -9,10 +25,3 @@ Thumbs.db
 .Trash*
 .history/
 
-yarn.lock
-/bower_components/
-/node_modules/
-/output/
-/tmp/
-
-.psc-ide-port
