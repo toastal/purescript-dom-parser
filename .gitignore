@@ -9,6 +9,7 @@
 /.psa*
 /.psa-stash
 
+package-lock.json
 yarn.lock
 /node_modules/
 /output/
