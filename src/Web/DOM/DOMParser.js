@@ -1,7 +1,7 @@
 /* Web.DOM.DOMParser */
 "use strict";
 
-exports.newDOMParser = function () {
+exports.makeDOMParser = function () {
   return new DOMParser();
 };
 

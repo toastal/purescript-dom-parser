@@ -19,8 +19,8 @@
   ],
   "dependencies": {
     "purescript-prelude": "^4.1.0",
-    "purescript-effect": "^2.0.0",
-    "purescript-web-dom": "^1.0.0"
+    "purescript-effect": "^2.0.1",
+    "purescript-web-dom": "^2.0.0"
   },
   "devDependencies": {
 		"purescript-assert": "^4.0.0",
