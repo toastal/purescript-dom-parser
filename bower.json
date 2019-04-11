@@ -3,11 +3,11 @@
   "homepage": "https://github.com/toastal/purescript-domparser",
   "description": "DOMParser wrapper for integrated with PureScript DOM",
   "license": "MIT",
-	"keywords": [
-		"purescript"
-	],
+  "keywords": [
+    "purescript"
+  ],
   "repository": {
-		"type": "git",
+    "type": "git",
     "url": "git://github.com/toastal/purescript-domparser.git"
   },
   "ignore": [
@@ -20,10 +20,11 @@
   "dependencies": {
     "purescript-prelude": "^4.1.0",
     "purescript-effect": "^2.0.1",
-    "purescript-web-dom": "^2.0.0"
+    "purescript-web-dom": "^2.0.0",
+    "purescript-partial": "^2.0.1"
   },
   "devDependencies": {
-		"purescript-assert": "^4.0.0",
+    "purescript-assert": "^4.0.0",
     "purescript-console": "^4.1.0",
     "purescript-debug": "^4.0.0",
     "purescript-psci-support": "^4.0.0"
