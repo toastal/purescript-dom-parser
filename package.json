@@ -1,6 +1,6 @@
 {
   "name": "purescript-dom-parser",
-  "author": "toastal <https://keybase.io/toastal>",
+  "author": "toastal (https://keybase.io/toastal)",
   "private": false,
   "scripts": {
     "build": "pulp build -- --censor-lib --strict",
@@ -9,8 +9,8 @@
     "postinstall": "psc-package install"
   },
   "devDependencies": {
-    "pulp": "^12.3.1",
-    "purescript": "~0.12.3",
+    "pulp": "^12.4.0",
+    "purescript": "^0.12.4",
     "purescript-psa": "~0.7.3",
     "rimraf": "^2.6.3"
   },

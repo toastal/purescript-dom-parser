@@ -1,6 +1,6 @@
 {
-  "name": "purescript-domparser",
-  "homepage": "https://github.com/toastal/purescript-domparser",
+  "name": "purescript-dom-parser",
+  "homepage": "https://github.com/toastal/purescript-dom-parser",
   "description": "DOMParser wrapper for integrated with PureScript DOM",
   "license": "MIT",
   "keywords": [
@@ -8,14 +8,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/toastal/purescript-domparser.git"
+    "url": "git://github.com/toastal/purescript-dom-parser.git"
   },
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "output",
-    "yarn.lock"
+    "yarn.lock",
+    "package-lock.json"
   ],
   "dependencies": {
     "purescript-prelude": "^4.1.0",
