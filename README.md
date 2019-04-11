@@ -12,5 +12,5 @@
 bower install purescript-domparser
 ```
 
-Module documentation is [published on Pursuit](https://pursuit.purescript.org/packages/purescript-domparser).
+Module documentation is [published on Pursuit](https://pursuit.purescript.org/packages/purescript-dom-parser).
 
