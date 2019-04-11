@@ -1,4 +1,4 @@
-# purescript-domparser
+# purescript-dom-parser
 
 [`DOMParser`](https://developer.mozilla.org/docs/Web/API/DOMParser) wrapper for integration with PureScript DOM.
 
