@@ -8,6 +8,8 @@
 /.purs*
 /.psa*
 /.psa-stash
+/.cache
+/.xdg_config_home
 
 package-lock.json
 yarn.lock
@@ -25,4 +27,3 @@ ehthumbs.db
 Thumbs.db
 .Trash*
 .history/
-
