@@ -8,7 +8,9 @@ exports.makeDOMParser = function () {
 exports.parseFromString = function (documentType) {
   return function (sourceString) {
     return function (domParser) {
-      return domParser.parseFromString(sourceString, documentType);
+      return function () { // Effect thunk
+        return domParser.parseFromString(sourceString, documentType);
+      };
     };
   };
 };

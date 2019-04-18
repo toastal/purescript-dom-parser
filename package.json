@@ -18,6 +18,6 @@
     "rimraf": "^2.6.3"
   },
   "dependencies": {
-    "psc-package": "^0.3.2"
+    "psc-package": "^3.0.1"
   }
 }
