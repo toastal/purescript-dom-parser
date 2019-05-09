@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+npm run build && \
+  pulp build --main "Test.Main" --src-path "src" -I "test" \
+       -- --censor-lib --strict && \
+  parcel --no-hmr --public-url ./ build test/index.html
