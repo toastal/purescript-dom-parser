@@ -1,3 +1,7 @@
+Archivied because it's now a [PureScript community fork](https://github.com/purescript-web/purescript-web-dom-parser) which is better for everyone.
+
+- - -
+
 # purescript-dom-parser
 
 [`DOMParser`](https://developer.mozilla.org/docs/Web/API/DOMParser) wrapper for integration with PureScript DOM.
